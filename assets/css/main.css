@@ -1179,6 +1179,8 @@ th.last, td.last {padding-right: 0;}
 }
 .radio-switcher-option.selected {background: #441feb; color: #fff;}
 
+#test {margin: 0;}
+
 #sms-preview {display: inline-block; vertical-align: middle; width: 288px; border: solid 10px #DCE8F1; border-bottom: 0; padding: 0 30px; text-align: left;
 	-webkit-border-radius: 49px 49px 0px 0px; border-radius: 49px 49px 0px 0px;
 	-webkit-box-sizing: border-box;
