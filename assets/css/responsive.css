@@ -137,6 +137,9 @@
 	#dashboard-chart-to-do {display: block;}
 	#dashboard-chart-to-do .main {width: 100%;}
 	#dashboard-chart-to-do .sidebar {width: 100%;}
+	
+	.boxed-sidebar {width: 100%; padding: 0;}
+	.boxed-sidebar-after {width: 100%; padding: 30px 0 0 0; border: 0;}
 }
 
 @media screen and (max-width : 767px) {
