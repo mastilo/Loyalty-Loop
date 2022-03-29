@@ -199,6 +199,9 @@
 	#dashboard-chart-to-do .chart .head {padding: 0;}
 	
 	#dashboard-chart-to-do .chart .legend li {width: 100%;}
+	
+	.checkboxes-inline .custom-checkbox {width: 100%;}
+	.checkboxes-inline .custom-checkbox + .custom-checkbox {margin: 10px 0 0 0;}
 }
 
 @media screen and (max-width : 599px) {
@@ -306,4 +309,6 @@
 	.boxed-group-box.size-4 {width: calc(100% - 15px);}
 	
 	#sms-preview {width: 100%;}
+	
+	.button-general {padding: 0 12px;}
 }
