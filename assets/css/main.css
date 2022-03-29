@@ -614,6 +614,8 @@ h1 + .back-to-link {margin-top: -15px;}
 .custom-checkbox + .custom-checkbox {margin: 10px 0 0 0;}
 .custom-checkbox.blue .graphic:before {border-color: #441feb;}
 
+.checkboxes-inline .custom-checkbox + .custom-checkbox {margin: 0 0 0 10px;}
+
 .custom-radio {display: inline-block; vertical-align: middle; position: relative; min-width: 20px; min-height: 20px; font-size: 0;}
 .custom-radio [type="radio"] {position: absolute; left: 0; top: 0; pointer-events: none; opacity: 0;}
 .custom-radio .graphic {display: inline-block; vertical-align: middle; position: relative; line-height: 20px;}
@@ -718,6 +720,13 @@ th.last, td.last {padding-right: 0;}
 .simple-nav-links .heading .label-filled {margin: 0 0 0 20px;}
 .simple-nav-links .nav li {line-height: 130%;}
 .simple-nav-links .nav li + li {margin: 15px 0 0 0;}
+.simple-nav-links .nav .status {position: relative; padding: 0 0 0 20px;}
+.simple-nav-links .nav .status:before {content: " "; display: block; width: 8px; height: 8px; position: absolute; left: 0; top: 8px; background: #80888F;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+.simple-nav-links .nav .status.green:before {background: #1ED500;}
+.simple-nav-links .nav .status.red:before {background: #ec4063;}
 .simple-nav-links.with-icons-right .nav {margin: 15px 0 0 0;}
 .simple-nav-links.with-icons-right .nav li {width: calc(100% + 40px); margin: 0 0 0 -20px;}
 .simple-nav-links.with-icons-right .nav a {padding: 15px 20px;}
@@ -738,7 +747,6 @@ th.last, td.last {padding-right: 0;}
 .text-content li:last-child {margin-bottom: 0;}
 .text-content ul li:before {content: " "; display: block; width: 6px; height: 6px; background: #441feb; position: absolute; left: 0; top: 7px;
 	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
 	border-radius: 100%;
 }
 .text-content ol li {list-style-type: decimal; list-style-position: outside; padding: 0; margin: 0 0 20px 18px;}
@@ -1171,6 +1179,7 @@ th.last, td.last {padding-right: 0;}
 
 .simple-survey-row + .simple-survey-row {margin: 20px 0 0 0;}
 .simple-survey-row-number {width: 32px; line-height: 32px; text-align: center;}
+.simple-survey-row-number.checked {background-image: url(../images/icon-check-3.svg); background-position: center center; background-repeat: no-repeat; font-size: 0;}
 .simple-survey-row-label {width: calc(100% - 32px); padding: 0 0 0 12px; line-height: 32px; font-size: 0;}
 .simple-survey-row-label p {font-size: 1rem;}
 .simple-survey-row-body {margin: 15px 0 0 0; padding: 0 0 0 44px;}
